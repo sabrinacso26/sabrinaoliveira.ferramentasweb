@@ -59,7 +59,7 @@ h1 {
     position: absolute;
     top: 250px; 
     right: 600px; 
-    width: 600px; 
+    width: 200px; 
     height: auto;
     border-radius: 20%; 
 }
@@ -67,7 +67,7 @@ h1 {
     position: absolute;
     top: 180px; 
     right: 800px; 
-    width: 350px; 
+    width: 150px; 
     height: auto;
  
 }
@@ -75,7 +75,7 @@ h1 {
     position: absolute;
     top: 180px; 
     right: 400px; 
-    width: 350px; 
+    width: 150px; 
     height: auto;
 
 }
