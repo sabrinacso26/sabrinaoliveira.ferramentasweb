@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   
+    <!-- Configurações básicas do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina Oliveira</title>
+    <!-- Link para o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Menu de navegação -->
+    <header>
+        <nav>
+            <ul>
+                <!-- Links do menu que chamam a função showSection no clique -->
+                <li><a href="#" onclick="showSection('sobre-mim')">Sobre Mim</a></li>
+                <li><a href="#" onclick="showSection('portfolio')">Portfolio</a></li>
+                <li><a href="#" onclick="showSection('formacao')">Formação Educacional</a></li>
+                <li><a href="#" onclick="showSection('contatos')">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Conteúdo principal do site -->
+    <main>
+        <!-- Seção "Sobre Mim" -->
+        <section id="sobre-mim">
+            <h1>Sobre Mim</h1>
+            <p>Oi! Eu sou a Sabrina, tenho 24 anos e tenho como hobbies fotografar, visitar museus de arte e descobrir novos lugares. <br>
+                Também adoro animações japonesas, sendo minhas favoritas One piece e os filmes do Studio Ghibli.<br> No momento faço duas faculdades, 
+                sendo elas Arquitetura e Urbanismo, e Análise e Desenvolvimento de Sistemas. <br> Meu sonho é conseguir me formar e ter condições para viajar por muitos lugares, 
+                conhecendo cada vez mais esse mundo. </p>
+                <img src="IMG_7524.JPG" alt="Minha Foto" id="minha-foto">
+        </section>
+        <!-- Seção "Portfolio" -->
+        <section id="portfolio" style="display:none;">
+            <h1>Portfolio</h1>
+            <p>Aqui estão alguns trabalhos desenvolvidos nas cadeiras de Introdução ao Projeto Arquitetônico:</p>
+            <img src="Prancha final - Grupo 2 - IPA II-2_page-0001.jpg" id="prancha1">
+            <img src="Prancha Finalera_page-0001.jpg" id="prancha2">
+        </section>
+        <!-- Seção "Formação Educacional"  -->
+        <section id="formacao" style="display:none;">
+            <h1>Formação Educacional</h1>
+            <p>
+                Análise e Desenvolvimento de Sistemas - Uninter <br> Desde: 2022 
+
+                <br> Arquitetura e Urbanismo - UFRGS <br> Desde: 2023 
+
+                <br> Língua Inglesa Teens - Idiomas Four <br> De 2010 a 2013
+            </p>
+        </section>
+        <!-- Seção "Contatos"  -->
+        <section id="contatos" style="display:none;">
+            <h1>Contatos</h1>
+            <p>Fone: 51 99422-2119 <br> 
+               
+            </p>
+        </section>
+    </main>
+    <!-- Link para o arquivo JavaScript -->
+    <script src="js"></script>
+</body>
+</html>

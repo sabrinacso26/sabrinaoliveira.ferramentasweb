@@ -1,0 +1,81 @@
+/* Estilo básico do documento */
+body {
+    font-family: 'Montserrat', sans-serif;  /* Fonte padrão */
+    background-color: #f0f0f0;  /* Cor de fundo */
+    color: #333;  /* Cor do texto */
+    margin: 0;  /* Remover margens padrão */
+    padding: 0;  /* Remover padding padrão */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;  /* Cor de fundo do cabeçalho */
+    color: #fff;  /* Cor do texto */
+    padding: 10px 0;  /* Espaçamento interno */
+}
+
+/* Estilo para a lista de navegação */
+nav ul {
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content: center;  
+}
+
+/* Estilo para os itens da lista de navegação */
+nav ul li {
+    margin: 0 15px;  
+}
+
+/* Estilo para os links de navegação */
+nav ul li a {
+    color: #fff;  
+    text-decoration: none;  
+    font-weight: bold;  
+}
+
+/* Estilo para os links de navegação ao passar o mouse */
+nav ul li a:hover {
+    text-decoration: underline;  
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;  
+}
+
+/* Estilo para as seções */
+section {
+    margin-bottom: 20px;  
+}
+
+/* Estilo para os títulos */
+h1 {
+    color: #444;  
+}
+/* Estilo para a imagem */
+#minha-foto {
+    position: absolute;
+    top: 250px; 
+    right: 600px; 
+    width: 600px; 
+    height: auto;
+    border-radius: 20%; 
+}
+#prancha1 {
+    position: absolute;
+    top: 180px; 
+    right: 800px; 
+    width: 350px; 
+    height: auto;
+ 
+}
+#prancha2 {
+    position: absolute;
+    top: 180px; 
+    right: 400px; 
+    width: 350px; 
+    height: auto;
+
+}
